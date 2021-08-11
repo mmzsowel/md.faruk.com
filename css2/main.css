@@ -1,0 +1,244 @@
+
+*{margin:0;padding:0}
+
+
+/* Heder area */
+.container{
+width: 100%;
+margin: 0 auto;
+}
+.logo-adve{
+   display: flex;
+    height: 100px;
+
+}
+.logo {
+    width: 350px;
+    float: left;
+   padding: 25px;
+}
+.content01{
+    width: 350px;
+    float: center;
+    padding-top: 12PX;
+    margin-left: 122px;
+  
+}
+.content01 h1{
+    font-size: 57px;
+    color: blue;
+}
+.advetis {
+    width: 350px;
+    float: right;
+    padding: 25px;
+}
+
+/*--End--*/
+
+
+
+/*Nevbar & manuber area*/
+ul.menu-ul {
+    list-style: none;
+}
+
+ul.menu-ul li {
+    float: left;
+    position: relative;
+}
+
+ul.menu-ul li a {
+    text-decoration: none;
+    font-size: 23px;
+    color: #f6fcff94;
+    display: block;
+    font-family: arial;
+    padding: 15px 15px;
+    transition:all 0.5s;
+}
+ul.menu-ul li a:hover{
+    background:#4352a5b8;
+    color:white;
+}
+
+nav {
+    background: #161d44;
+    display: table;
+    width: 100%;
+}
+
+.logo-adve {
+    overflow: hidden;
+    margin-top: 5px;
+ }
+ul.sub-menu {
+    list-style: none;
+    background: #161d44;
+    width: 200px;
+    position: absolute;
+    top: 57px;
+    left: 0px;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: all 0.5s;
+}
+
+ul.menu-ul li:hover .sub-menu{transform:scaleY(1);}
+
+ul.sub-menu li {
+    float: none;
+}
+
+ul.sub-menu li a{transition:all 1s}
+
+ul.sub-menu li:hover a{padding-left:50px}
+
+/*--End--*/
+
+
+/* 1st pages Bnner Hero area */
+
+
+
+/*--End--*/
+
+/* 2nd pages Service area */
+
+section.services {
+    background: #0a364a;
+    padding: 60px 0px;
+    margin-top: -4px;
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+.services-boxes {
+    width: 330px;
+    border: 1px solid #ddd;
+    background: #fdfdfd;
+    padding: 15px;
+    overflow: hidden;
+    display: inline-block;
+    margin-right: 25px;
+    box-shadow: 5px 0px 10px 5px;
+    transition:all 0.5s;
+    margin-bottom: 20px;
+}
+.services-boxes:hover{
+	background:transparent;
+	color:white;
+	cursor:pointer;
+	transform:translateY(-10px)
+    
+	
+	}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section-title h1 {
+    margin-bottom: 23px;
+    font-size: 40px;
+    color: #FF5722;
+}
+
+.section-title span {
+    font-size: 19px;
+    color: #ffffffab;
+    font-family: arial;
+	}
+	.boxes-icon {
+    width: 30px;
+    float: left;
+    font-size: 50px;
+    color: #ff5722;
+}
+
+.boxes-text {
+    width: 280px;
+    float: left;
+ }
+.boxes-text h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #FF5722;
+    font-weight: bold;
+    text-align: center;
+}
+
+.boxes-text p {
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+section.About-section {
+    background: #1551827a;
+    padding: 60px;
+}
+
+/*--End--*/
+
+/* 3rd pages About area */
+
+.about-title {
+    text-align: center;
+    margin-bottom: 60px;
+    color: #bb750d;
+}
+
+.about-title h1 {
+    font-size: 40px;
+}
+.about-title span {color: #145e98;}
+
+.us-images {width: 500px;float: left;box-shadow: 1px 23px 21px 5px;}
+
+img {
+    max-width: 100%;
+    margin-top: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+.us-decr {width: 500px;float: right;}
+
+.img-decrUS {
+    overflow: hidden;
+}
+.us-decr h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #145e98;
+}
+
+.us-decr p {
+    font-size: 15px;
+    font-family: arial;
+    line-height: 30px;
+    color: #a26e20;
+}
+
+/*--End--*/
+
+
+/* footer area*/
+footer {
+    background: #070d13;
+}
+
+.copywite-wrap {
+    font-size: 13px;
+    color: #e0ddddad;
+    text-align: center;
+    padding: 10px 0px;
+    font-family: arial;
+    font-weight: bold;
+	}
+    /* End */
